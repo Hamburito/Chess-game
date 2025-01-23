@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://cn8oqxplh5yr1"]
+
+[ext_resource type="PackedScene" uid="uid://dlux6o60l8dhi" path="res://GUI.tscn" id="1_b60qm"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="GUI" parent="." instance=ExtResource("1_b60qm")]
+layout_mode = 1

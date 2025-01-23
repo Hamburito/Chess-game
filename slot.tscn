@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://ch1oad4xniyvc"]
+
+[ext_resource type="Script" path="res://slot.gd" id="1_tk6g2"]
+
+[node name="Slot" type="ColorRect"]
+custom_minimum_size = Vector2(78, 78)
+color = Color(0.0752329, 0.448118, 0.458958, 1)
+script = ExtResource("1_tk6g2")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 1, 1, 0)
